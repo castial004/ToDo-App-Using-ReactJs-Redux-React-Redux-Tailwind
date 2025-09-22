@@ -20,16 +20,26 @@ This project demonstrates how to use Redux actions, reducers, and hooks (`useDis
 
 ## 📂 Project Structure
 src/
-├── App.jsx # Main app, connects Input & Display
-├── index.jsx # ReactDOM entry with Redux Provider
-├── Store/
-│ ├── store.js # Redux store configuration
-│ ├── reducer.js # Reducer logic for todos
-│ └── action.js # Redux action creators & constants
-├── Components/
-│ ├── Input.jsx # Todo input form
-│ └── Display.jsx # Todo card (view, edit, delete)
-└── index.css # TailwindCSS styles
+
+    ├── App.jsx    # Main app, connects Input & Display
+
+    ├── index.jsx   # ReactDOM entry with Redux Provider
+
+    ├── Store/
+
+        │ ├── store.js # Redux store configuration
+
+        │ ├── reducer.js # Reducer logic for todos
+
+        │ └── action.js # Redux action creators & constants
+
+    ├── Components/
+
+        │ ├── Input.jsx # Todo input form
+
+        │ └── Display2.jsx # Todo card (view, edit, delete)
+
+        └── index.css # TailwindCSS styles
 
 ⚙️ How Redux Works in This Project
 
